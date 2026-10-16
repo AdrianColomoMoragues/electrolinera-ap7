@@ -1,0 +1,16 @@
+[project]
+name = "electrolinera-ap7"
+version = "0.1.0"
+description = "Gemelo digital de una electrolinera de autopista: simulación Monte Carlo y dimensionado de baterías"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+extend-exclude = ["*.ipynb"]   # el informe usa estilo compacto de matplotlib
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
