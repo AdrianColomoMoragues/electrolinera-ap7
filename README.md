@@ -4,7 +4,7 @@
 
 Simulador Monte Carlo interactivo para decidir **cuánto gana una electrolinera, cuánto riesgo de apagones tiene y cuándo compensa alquilar baterías**. Ajusta modelos estocásticos a 30 días de recargas reales, simula miles de meses posibles y busca el tamaño de batería que maximiza el beneficio.
 
-> 🔗 **Demo:** *(enlace de Streamlit Community Cloud, pendiente de publicar)*
+> 🔗 **Demo:** *(https://electrolinera-ap7.streamlit.app/)*
 
 ![Gemelo digital](docs/gemelo.png)
 
